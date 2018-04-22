@@ -15,14 +15,18 @@
 <body>
 	<%
 	//HashMap<String, String> nationList = NationList.nationList;
-	ArrayList<String> nationList = new ArrayList<>(NationList.nationList.keySet());
+  //nationList는 static 객체로 관리
+
+  ArrayList<String> nationList = new ArrayList<>(NationList.nationList.keySet());
+
+
 	%>
-	
+
 	<h1>Chart Crawler</h1>
-	
-	
-	
-	
-	
+
+
+
+
+
 </body>
 </html>
